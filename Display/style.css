@@ -29,7 +29,7 @@ body {
 }
 
 .item a:hover {
-    background-color: chartreuse;
+    background-color: lightgreen;
     color: #000;
 }
 
