@@ -1,13 +1,38 @@
 /* Las propiedades mas importantes de display son: block, inline, inline-block */
 
-.box {
-    width: 300px;
-    height: 300px;
-    background-color: lightsalmon;
-    text-align: center;
+body {
+    font-family: sans-serif;
 }
 
-.display {
+.nav {
+    background-color: black;
+}
+
+.list {
+    list-style: none;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: inline-block;
+    color: #eee;
+}
+
+.item a {
+    color: #eee;
     display: block;
+    padding: 1.3rem;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
+.item a:hover {
+    background-color: chartreuse;
+    color: #000;
+}
+
+.item-r {
+    float: right;
+}
