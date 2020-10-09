@@ -1,0 +1,13 @@
+/* Las propiedades mas importantes de display son: block, inline, inline-block */
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.display {
+    display: block;
+}
+

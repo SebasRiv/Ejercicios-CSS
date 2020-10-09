@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.absolute {
+    display: flex;
+    position: absolute;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 1%;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+    background-color: lightcoral;
+    top: 100px;
+    left: 10%;
+    margin-bottom: 20rem;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: lightgreen;
+    /* top: 100%; */
+    bottom: 0;
+    left: 0;
+}
+
