@@ -1,0 +1,80 @@
+:root {
+    --background-color: rgb(54, 54, 54);
+    --background-words-color: #eee;
+    --background-text: rgb(83, 79, 128);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    color: var(--background-words-color);
+    height: 600px;
+    width: 600px;
+    background-color: var(--background-color);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10%;
+}
+
+.text {
+    display: relative;
+    padding: 2%;
+    margin: 10%;
+    background-color: var(--background-text);
+    border-radius: 5px;
+}
+
+.text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    /* height: 10px;
+    width: 10px; */
+    /* background-color: black; */
+    border-top: 20px solid var(--background-text);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    bottom: 75px;
+    left: calc(50% - 20px);
+}
+
+.button {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(49, 19, 221);
+    color: var(--background-words-color);
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(71, 39, 253);
+}
+
+.forgot {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    color: var(--background-words-color);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10%;
+    transition: 0.5s;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
