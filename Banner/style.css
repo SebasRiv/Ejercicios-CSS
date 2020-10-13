@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2020/08/14/17/13/light-bulbs-5488573_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eeeeee;
+    padding: 10%;
+}
+
+.button {
+    display: block;
+    width: max-content;
+    text-decoration: none;  
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+/* CARDS */
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+}
+
+.card h3, p {
+    padding: 5px 10px;
+}
