@@ -84,5 +84,6 @@ body {
 
 .card-flex {
     border: 1px solid black;
+    /* Tamaño definido de los items en el flex container */
     flex-basis: 23.48%;
 }
