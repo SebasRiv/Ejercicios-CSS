@@ -70,3 +70,19 @@ body {
 .card h3, p {
     padding: 5px 10px;
 }
+
+/* Cards  flex*/
+.cards-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-flex {
+    border: 1px solid black;
+    flex-basis: 23.48%;
+}
