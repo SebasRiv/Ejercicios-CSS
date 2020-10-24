@@ -10,6 +10,12 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Span */
+
+.span {
+    font-weight: 700;
+}
+
 /* Barra de navegación (sin responsive) */
 
 .nav {
@@ -53,7 +59,6 @@ body {
 .banner {
     width: 100%;
     height: 700px;
-    border: 1px solid black;
     background-image: url(https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_1280.jpg);
     background-size: cover;
     color: white;
@@ -93,5 +98,56 @@ body {
     background-color: lightgray;
 }
 
+/* Productos */
+
+.products {
+    padding: 120px 0;
+}
+
+.products__head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20rem;
+    padding-bottom: 3rem;
+}
+
+.products__title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.products__text {
+    font-size: 1.3rem;
+    color: rgb(165, 165, 165);
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.products__item {
+    height: 500px;
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.item-1 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/02/13/21/guggenheim-museum-2707258_1280.jpg);
+}
+
+.item-2 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/21/11/39/running-4782722_1280.jpg);
+}
+
+.item-3 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/17/14/25/river-5662293_1280.jpg);
+}
+
+.item-4 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/17/11/55/elephants-5661842_1280.jpg);
+}
 
 
